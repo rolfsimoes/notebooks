@@ -10,4 +10,4 @@ git clone https://github.com/e-sensing/notebooks /tmp/notebooks
 docker run -it --name worcap-mc1 -p 8888:8888 -v /tmp/notebooks/worcap-2017:/home/jovyan/work esensing/worcap-mc1:1.0 start-notebook.sh --NotebookApp.token=''
 ```
 
-**Pronto !!!** Abra o browser no link indicado no terminal
+**Pronto !!!** Abra o browser o endereço [http://localhost:8888](http://localhost:8888) no link indicado no terminal
