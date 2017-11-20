@@ -1,5 +1,5 @@
 # Preparando ambiente para execução dos Jupyter Notebooks do MC-1
-## Baixando o material
+## Baixando o material do MC-1
 Baixe o material do MC-1 executando o seguinte comando no terminal:
 ```
 git clone https://github.com/e-sensing/notebooks /tmp/notebooks
