@@ -106,7 +106,12 @@ iquery -aq "store(window(evi_array, 0, 2, 0, 2, 0, 0, avg(new_evi)),mod13q1_evi_
 
 ## Script para calcular média
 
-Salve dentro do docker em ```/tmp/avg_time.py```:
+Para baixar o script exemplo, utilize o seguinte comando **dentro do contêiner ```worcap-2017```**:
+```
+wget https://raw.githubusercontent.com/e-sensing/notebooks/master/worcap-2017/scidb/avg_time.py -O /tmp/avg_time.py
+```
+
+O conteúdo do script ```avg_time.py``` segue abaixo:
 ```python
 #!/usr/bin/python
 
