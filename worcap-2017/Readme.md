@@ -21,7 +21,7 @@ docker pull esensing/scidb:16.9
 
 Para baixar a imagem do container contendo o ambiente de programação Python que será utilizado no minicurso, execute o seguinte comando no terminal do seu sistema operacional:
 ```bash
-docker pull esensing/worcap-mc1:1.0
+docker pull esensing/worcap-mc1:1.1
 ```
 
 
@@ -35,6 +35,7 @@ A saída deverá apresentar os nomes das seguintes imagens de contêineres:
 ```
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 esensing/scidb      16.9                648bae1adf4c        2 days ago          10.2GB
+esensing/worcap-mc1 1.1                 7a23cb3a4845        9 minutes ago       3.16GB
 ```
 
 
