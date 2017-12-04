@@ -5,9 +5,25 @@
 
 This document explains how to prepare the computational environment for the course.
 
+## Installing SITS
+
+The `R` package **Satellite Image Time Series Analysis** is available from [e-Sensing GitHub](https://github.com/e-sensing/sits).
+
+Install [R](https://www.r-project.org/) and the open source version of [RStudio](https://www.rstudio.com/).
+
+In the RStudio command line type:
+```R
+install.packages("devtools")
+```
+
+```R
+devtools::install_github("e-sensing/sits")
+```
+
+
 ## Installing Docker
 
-Install [Docker](https://www.docker.com) in your computer.
+In order to follow the course instructions with SciDB you can install [Docker](https://www.docker.com) in your computer and download a *ready-to-use image*.
 
 If you have Linux Ubuntu 16.04, follow the step-by-step guide [here](https://www.digitalocean.com/community/tutorials/como-instalar-e-usar-o-docker-no-ubuntu-16-04-pt), otherwise, follow the instructions in [Docker's site](https://www.docker.com/community-edition).
 
@@ -42,22 +58,5 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 esensing/scidb      16.9                648bae1adf4c        2 days ago          10.2GB
 esensing/geoinfo    1.1                 7a23cb3a4845        9 minutes ago       3.16GB
 ```
-
-
-## Installing SITS
-
-The `R` package **Satellite Image Time Series Analysis** is available from [e-Sensing GitHub](https://github.com/e-sensing/sits).
-
-Install [R](https://www.r-project.org/) and the open source version of [RStudio](https://www.rstudio.com/).
-
-In the RStudio command line type:
-```R
-install.packages("devtools")
-```
-
-```R
-devtools::install_github("e-sensing/sits")
-```
-
 
 ***Finished !!!***
