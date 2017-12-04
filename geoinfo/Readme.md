@@ -1,5 +1,8 @@
 # Short Course - Big Earth Observation Data Analytics
 
+<p style="font-weight: bold;text-align: right">XVIII Brazilian Symposium on Geoinformatics</p>
+<p style="font-weight: bold;text-align: right">December 04th to 06th, Salvador, BA, Brazil</p>
+
 This document explains how to prepare the computational environment for the course.
 
 ## Installing Docker
@@ -11,7 +14,7 @@ If you have Linux Ubuntu 16.04, follow the step-by-step guide [here](https://www
 After installing Docker, follow the instructions to install the image containers that we have prepared for the short-course.
 
 
-## Downloading esensing/scidb:16.9
+## Downloading the Docker Image `esensing/scidb:16.9`
 
 In order to download the container image with SciDB prepared for the course, type the following command in your terminal:
 ```bash
@@ -19,7 +22,7 @@ docker pull esensing/scidb:16.9
 ```
 
 
-## Baixando imagem esensing/geoinfo:1.0
+## Downloading the Docker Image `esensing/geoinfo:1.0`
 
 In order to download the container image with the Python environment prepared for the course, type the following command in the terminal:
 ```bash
