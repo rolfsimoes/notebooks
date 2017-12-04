@@ -7,9 +7,9 @@ This document explains how to prepare the computational environment for the cour
 
 ## Installing SITS
 
-The `R` package **Satellite Image Time Series Analysis** is available from [e-Sensing GitHub](https://github.com/e-sensing/sits).
-
 Install [R](https://www.r-project.org/) and the open source version of [RStudio](https://www.rstudio.com/).
+
+The `R` package **Satellite Image Time Series Analysis** is available in the [e-Sensing GitHub](https://github.com/e-sensing/sits).
 
 In the RStudio command line type:
 ```R
