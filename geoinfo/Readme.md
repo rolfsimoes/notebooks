@@ -1,7 +1,7 @@
 # Short Course - Big Earth Observation Data Analytics
 
-<p style="font-weight: bold;text-align: right">XVIII Brazilian Symposium on Geoinformatics</p>
-<p style="font-weight: bold;text-align: right">December 04th to 06th, Salvador, BA, Brazil</p>
+<p>XVIII Brazilian Symposium on Geoinformatics</p>
+<p>December 04th to 06th, Salvador, BA, Brazil</p>
 
 This document explains how to prepare the computational environment for the course.
 
