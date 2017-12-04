@@ -19,7 +19,7 @@ install.packages("devtools")
 ```
 
 ```R
-devtools::install_github("e-sensing/sits")
+devtools::install_github("e-sensing/sits", ref = "9dc5e898e213260ee4b3e3271a7983f4463c138f")
 ```
 
 
