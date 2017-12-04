@@ -11,7 +11,9 @@ Install [R](https://www.r-project.org/) and the open source version of [RStudio]
 
 The `R` package **Satellite Image Time Series Analysis** is available in the [e-Sensing GitHub](https://github.com/e-sensing/sits).
 
-In the RStudio command line type:
+There are detailed insructions for [Ubuntu 14.04](https://github.com/e-sensing/notebooks/blob/master/geoinfo/SITS-Install-Ubuntu-14.04.md) or [Ubuntu 16.04](https://github.com/e-sensing/notebooks/blob/master/geoinfo/SITS-Install-Ubuntu-16.04.md).
+
+For the general case, just type the following commands in RStudio:
 ```R
 install.packages("devtools")
 ```
