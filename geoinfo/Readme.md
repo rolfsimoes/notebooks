@@ -44,4 +44,18 @@ esensing/geoinfo    1.1                 7a23cb3a4845        9 minutes ago       
 ```
 
 
+## Installing SITS
+
+The `R` package **Satellite Image Time Series Analysis** is available from [e-Sensing GitHub](https://github.com/e-sensing/sits).
+
+In the RStudio command line type:
+```R
+install.packages("devtools")
+```
+
+```R
+devtools::install_github("e-sensing/sits")
+```
+
+
 ***Finished !!!***
